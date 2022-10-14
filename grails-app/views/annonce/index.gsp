@@ -31,6 +31,8 @@
                 <th>Illustrations</th>
                 <th>Is active</th>
                 <th>Author</th>
+                <th>Edit</th>
+
             </tr>
             </thead>
 
@@ -57,6 +59,12 @@
                         </g:link>
                     </g:each>
                     </td>
+
+                    <td>
+                        <g:link controller="annonce" action="edit" id="${annonce.id}">Edit</g:link>
+                    </td>
+
+
                 </tr>
             </g:each>
             </tbody>

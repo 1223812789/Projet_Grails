@@ -33,19 +33,19 @@
                     <div class="fieldcontain required">
                         <label for="title">Title
                             <span class="required-indicator">*</span>
-                        </label><input type="text" name="title" value="title 1 Alice" required="" maxlength="50" id="title">
+                        </label><input type="text" name="title" value="${annonce.title}" required="" maxlength="50" id="title">
                     </div>
                     <div class="fieldcontain required">
                     <label for="description">Description
                         <span class="required-indicator">*</span>
                     </label>
-                        <input type="text" name="description" value="Description 1 Alice" required="" id="description">
+                        <input type="text" name="description" value="${annonce.description}" required="" id="description">
                 </div>
                     <div class="fieldcontain required">
                     <label for="price">Price
                         <span class="required-indicator">*</span>
                     </label>
-                        <input type="number decimal" name="price" value="100" required="" step="0.01" min="0.0" id="price">
+                        <input type="number decimal" name="price" value="${annonce.price}" required="" step="0.01" min="0.0" id="price">
                     </div>
 
                     <div class="fieldcontain">

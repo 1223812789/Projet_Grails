@@ -101,7 +101,8 @@ class AnnonceController {
             notFound()
             return
         }
-       annonceService.delete(id)
+
+        annonceService.delete(id)
 
         request.withFormat {
             form multipartForm {
